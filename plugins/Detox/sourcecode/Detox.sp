@@ -46,7 +46,7 @@ public Action Detox(int client, int args)
 	//Check if player is a valid client
 	if (client == 0)
 	{
-		//The server command will not be processed
+		//The command will not be processed
 		return Plugin_Handled;
 	}
 	//If extra parameters were used with the command notify the player
