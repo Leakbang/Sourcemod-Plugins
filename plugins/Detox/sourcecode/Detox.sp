@@ -7,11 +7,15 @@
 
 #include <sourcemod>
 #include <sdktools>
+//To need this plugin you need smlib because of the colored chat messages
 #include <smlib>
 
+//Create boolean variables
+//Create a variable for each player
 new DetoxON[MAXPLAYERS + 1];
 new bool:DebugOn;
 
+//Create a variable to assign a console variable to them
 new Handle:h_DebugOn = INVALID_HANDLE;
 
 public Plugin myinfo = 
@@ -26,25 +30,31 @@ public Plugin myinfo =
 public void OnPluginStart()
 {
 	RegConsoleCmd("sm_detox", Detox, "Toggles detoxicator on and off. For use in hazardous areas");
+	//Call the function when the match has started
 	HookEvent("game_start", EventGameStart);
 }
 
 public EventGameStart(Handle:event, const String:name[], bool:dontBroadcast)
 {
+	//Call the function when someone dies
 	HookEvent("player_death", EventPlayerDeath);
 }
 
 public Action Detox(int client, int args)
 {
+	//Check if player is a valid client
 	if (client == 0)
 	{
+		//The server command will not be processed
 		return Plugin_Handled;
 	}
+	//If extra parameters were used with the command notify the player
 	if(args != 0)
 	{
 		ReplyToCommand(client, "Usage: sm_detox | Toggles detoxicator on and off. For use in hazardous environments");
 		return Plugin_Handled;
 	}
+	//Check the variable for the player if true change it to false and vice versa
 	if (DetoxON[client] == 1)
 	{
 		DetoxON[client] = 0;
@@ -60,13 +70,17 @@ public Action Detox(int client, int args)
 
 public EventPlayerDeath(Handle:event, const String:name[], bool:dontBroadcast)
 {
+	//Find who was killed and store them in the variable
 	new player = GetClientOfUserId(GetEventInt(event, "userid"));
+	//Find who was the killer and store them in the variable
 	new attacker = GetClientOfUserId(GetEventInt(event, "attacker"));
 	if (DetoxON[player] == 1)
 	{
 		if (GetClientTeam(player) == GetClientTeam(attacker)) //Team kill
 		{
+			//Find a random number between the given min and max amounts and assign it to the newly created variable
 			new rng = GetRandomInt(1, 5);
+			//Based on the randomly generated number execute a command
 			switch (rng)
 			{
 				case 1: { Client_PrintToChat(player, true, "{G}Oof"); }
