@@ -7,7 +7,7 @@
 
 #include <sourcemod>
 #include <sdktools>
-//To need this plugin you need smlib because of the colored chat messages
+//To compile this plugin you need smlib because of the colored chat messages
 #include <smlib>
 
 //Create boolean variables
@@ -33,6 +33,7 @@ public void OnPluginStart()
 	//Call the function when the match has started
 	HookEvent("game_start", EventGameStart);
 }
+
 
 public EventGameStart(Handle:event, const String:name[], bool:dontBroadcast)
 {
