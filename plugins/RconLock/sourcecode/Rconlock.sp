@@ -12,8 +12,9 @@
 new bool:RconLock;
 new bool:DebugOn;
 
-//Create a new variable to store the server rcon password in it
+//Create new variables to store the server rcon password and the timer value in it
 new ConVar:RconPass;
+new ConVar:RegenTimer;
 
 //Create variables to assign console variables to them
 new Handle:h_RconLock = INVALID_HANDLE;
@@ -32,6 +33,7 @@ public void OnPluginStart()
 {
 	h_RconLock = CreateConVar("sm_rconlock", "1", "Use values 1/0 to enable or disable the rcon lock on this server");
 	h_DebugOn = CreateConVar("sm_enablercondebug", "0", "Use values 1/0 to enable debug messages on this server");
+	RegenTimer = CreateConVar("sm_regentime", "5", "Set the time in seconds which the password is reset");
 	//Hook the created boolean variables to the convars
 	DebugOn = GetConVarBool(h_DebugOn);
 	RconLock = GetConVarBool(h_RconLock);
@@ -53,7 +55,7 @@ public LockRcon()
 	if (RconLock)
 	{
 		//Call the RegenRcon function in 5 second intervals
-		CreateTimer(5.0, RegenRcon, _, TIMER_REPEAT);
+		CreateTimer(RegenTimer, RegenRcon, _, TIMER_REPEAT);
 	}
 }
 
