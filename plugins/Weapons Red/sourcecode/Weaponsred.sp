@@ -45,7 +45,7 @@ public void OnPluginStart()
 		PrintToServer("[DISARM] Invalid game detected: %s", Game);
 		PrintToServer("[DISARM] This plugin is not supported for your game, Contact Leakbang!");
 	}
-	RegAdminCmd("sm_red", MarkRed, ADMFLAG_CHEATS, "Remvoes player weapons");
+	RegAdminCmd("sm_red", MarkRed, ADMFLAG_CHEATS, "Removes player weapons");
 	RegAdminCmd("sm_blu", MarkBlu, ADMFLAG_CHEATS, "Adds player weapons back");
 	HookEvent("weapon_deploy", EventWeaponDisarm, EventHookMode_Pre);
 	HookEvent("weapon_fire", EventWeaponDisarm, EventHookMode_Pre);
@@ -154,7 +154,6 @@ public Action:Disarm(client) {
 			new String:weapon_name[32];
 			GetEdictClassname(active, weapon_name, sizeof(weapon_name));
 			if (!StrEqual(weapon_name, "weapon_m18") 		&&
-				!StrEqual(weapon_name, "weapon_m84") 		&&
 				!StrEqual(weapon_name, "weapon_kabar") 		&&
 				!StrEqual(weapon_name, "weapon_gurkha"))
 				{
@@ -180,10 +179,10 @@ public Action:Disarm(client) {
 		if (IsValidEntity(active)) {
 			new String:weapon_name[32];
 			GetEdictClassname(active, weapon_name, sizeof(weapon_name));
-			if (StrEqual(weapon_name, "weapon_flashbang") 		&&
-				StrEqual(weapon_name, "weapon_hegrenade") 		&&
-				StrEqual(weapon_name, "weapon_incgrenade") 		&&
-				StrEqual(weapon_name, "weapon_molotov") 		&&
+			if (StrEqual(weapon_name, "weapon_flashbang") 		||
+				StrEqual(weapon_name, "weapon_hegrenade") 		||
+				StrEqual(weapon_name, "weapon_incgrenade") 		||
+				StrEqual(weapon_name, "weapon_molotov") 		||
 				StrEqual(weapon_name, "weapon_taser"))
 				{
 					RemovePlayerItem(client, active);
