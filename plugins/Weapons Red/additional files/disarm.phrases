@@ -1,0 +1,15 @@
+//Translation file for "Weapons Red" Plugin
+"Phrases"
+{
+    "Disarmed"
+	{
+		"#format"	"{1:t}"
+		"en"		"{1} Disarmed"
+	}
+
+    "Armed"
+	{
+		"#format"	"{1:t}"
+		"en"		"{1} Armed"
+	}
+}
