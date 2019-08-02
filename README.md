@@ -6,7 +6,8 @@
 [Rcon Lock](plugins/RconLock)  
 [Suicide Blocker](plugins/SuicideBlocker)  
 [Detox](plugins/Detox)  
+[Weapons Red](plugins/WeaponsRed)
 
 ## Bugs/Feature requests
 
-Make sure to sumbit your feedback I'll add them when I get the chance  
+Make sure to submit your feedback I'll add them when I get the chance  
