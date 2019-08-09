@@ -11,7 +11,8 @@
 - [Detox](plugins/Detox)  
 - [Weapons Red](plugins/WeaponsRed)  
 - [Maintenance Mode](plugins/MaintenanceMode)  
+- [Body Swap](plugins/BodySwap)
 
 ## Bugs/Feature requests
 
-Make sure to submit your feedback I'll add them when I get the chance  
+Submit your feedback I'll add them when I get the chance  
