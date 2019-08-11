@@ -1,6 +1,6 @@
 # Sourcemod-Plugins
 
- This repository contains the plugins I made for sourcemod and also the source code. I added heavy documentary to each source file so it helps everyone to create plugins. I'll update this repository from time to time and include my other plugins. I have heavily tested these products so bugs should be non-existent, however, I could've still missed something so please send me feedback and bug reports to help keep these working.  
+This repository hosts plugins I made for sourcemod alongside the source code. I included heavy documentation so everybody can learn and develop plugins. I update this repository from time to time and I keep adding more plugins to it. These plugins are well tested so bugs should be non-existent, but I could've messed something up so let me know and send me feedback to keep these up and running.  
 
 ## Plugin list  
 
