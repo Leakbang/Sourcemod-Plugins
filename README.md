@@ -12,6 +12,7 @@ This repository hosts plugins I made for sourcemod alongside the source code. I 
 - [Weapons Red](plugins/WeaponsRed)  
 - [Maintenance Mode](plugins/MaintenanceMode)  
 - [Body Swap](plugins/BodySwap)
+- [Blade Runner](plugins/BladeRunner)
 
 ## Bugs/Feature requests
 
