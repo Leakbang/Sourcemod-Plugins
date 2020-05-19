@@ -1,10 +1,10 @@
 # Sourcemod-Plugins
 
-This repository hosts plugins I made for sourcemod alongside the source code. I included heavy documentation so everybody can learn and develop plugins. I update this repository from time to time and I keep adding more plugins to it. These plugins are well tested so bugs should be non-existent, but I could've messed something up so let me know if you find anything.  
+This repository hosts plugins I made for sourcemod alongside their source code. Heavy documentation is included so everybody can learn and develop plugins. I update this repository from time to time and I keep adding more plugins to it. These plugins are well tested so bugs should be non-existent, but I could've messed something up so let me know if you have any issues.  
 
 ## Plugin list  
 
->Click on the links for more info about each plugin  
+>Click on the links to find out more about each plugin  
 
 - [Rcon Lock](plugins/RconLock)  
 - [Suicide Blocker](plugins/SuicideBlocker)  
