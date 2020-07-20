@@ -2,7 +2,7 @@
 
 ## Usage  
 
-Prevents players from suiciding with console commands to get better spawns or for any other reason. This plugin is disabled in warmup and only block suicides when the match has begun.
+Prevents players from committing suicide with console commands to abuse the game mechanics to get better spawns or for other reasons. This plugin only activates while a match begins.
 
 ## Convars
 
