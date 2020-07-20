@@ -2,7 +2,7 @@
 
 ## Usage  
 
-Allows admins to select 2 players and swap their positions and looking angles. Useful for map creators, testers or players who want to test angles, pop flashes, etc. Works with bots *Tested in csgo*  
+Allows admins to select 2 players/bots and swap their positions and looking angles. Useful for map creators, testers or players who want to test specific, high-precision angles, pop flashes, and etc. Works with bots *Tested in csgo*  
 
 ## Commands  
 

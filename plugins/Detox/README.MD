@@ -5,7 +5,7 @@
 ## Usage
 
 Detoxicator for toxic servers  
-Gives morale boost to the players who are not doing so well. This plugin is disabled in warmup and only activates when the match has begun.
+Gives morale boost to the players who are not doing so well. Players will recieve a personalized motivational quote when they die. The plugin only activates when a match begins.
 
 ## Commands
 

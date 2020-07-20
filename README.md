@@ -17,4 +17,4 @@ This repository hosts plugins I made for sourcemod alongside their source code. 
 
 ## Bugs/Feature requests
 
-Submit your feedback I'll add them when I get the chance  
+Submit your feedback/feature requests I'll add them when I get the chance  

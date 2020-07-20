@@ -3,7 +3,7 @@
 ## Usage  
 
  This plugin randomly generates a password every 5 seconds and resets the rcon password.**The timer can be changed**  
-  This plugin is very useful for server admins that want to make sure only authorized people can access the rcon. After the plugin is activated users can access the rcon with the `sm_rcon <command>` command.  
+  This plugin is useful for server admins that want to make sure only authorized people can access the rcon. After the plugin is activated users can access the rcon with the `sm_rcon <command>` command.  
 
 ## Convars  
 

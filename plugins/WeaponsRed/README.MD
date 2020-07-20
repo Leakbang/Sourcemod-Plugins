@@ -2,7 +2,7 @@
 
 ## Usage  
 
-Allows admins to stop players from using firearms. This plugin is very useful for servers that can get chaotic real quick and the admins want to take matters into their own hand. Only melee weapons and some utility grenades such as smokes or decoys are available.  
+Allows admins to prohibit players from using firearms. Only melee weapons and some utility grenades such as smokes or decoys are available.  
 
 ## Commands  
 
@@ -12,4 +12,4 @@ Allows admins to stop players from using firearms. This plugin is very useful fo
 ## Note  
 
 This plugin only works for **Counter Strike Global Offensive** and **Insurgency**  
-This function is a bit mod specific but I'll release an experimental version that supports all games soon but if you have a game specific request shoot me a message and I'll look into it.  
+This plugin is a bit mod specific but I'll release an experimental version that supports all games sometime in the future but if you have a game-specific request shoot me a message and I'll look into it.    
