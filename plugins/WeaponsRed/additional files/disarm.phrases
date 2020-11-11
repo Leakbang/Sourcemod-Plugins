@@ -5,11 +5,13 @@
 	{
 		"#format"	"{1:t}"
 		"en"		"{1} Disarmed"
+        "ru"		"{1} обезоружен"
 	}
 
     "Armed"
 	{
 		"#format"	"{1:t}"
 		"en"		"{1} Armed"
+		"ru"		"{1} заряжен"
 	}
 }
