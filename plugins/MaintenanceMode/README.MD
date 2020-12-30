@@ -7,3 +7,5 @@ Allows admins to activate a "Maintenance Mode" on servers which will allow admin
 ## Convars  
 
 `sm_enablemaintenancemode` Use values 1/0 to enable or disable maintenance mode on this server. Default value: `0`  
+
+<img src="https://theta.goatcounter.com/count?p=/test-img">

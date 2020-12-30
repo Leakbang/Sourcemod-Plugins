@@ -18,3 +18,5 @@ This repository hosts plugins I made for sourcemod alongside their source code. 
 ## Bugs/Feature requests
 
 Submit your feedback/feature requests I'll add them when I get the chance  
+
+<img src="https://theta.goatcounter.com/count?p=/test-img">

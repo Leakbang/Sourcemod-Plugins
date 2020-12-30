@@ -7,3 +7,5 @@ Allows admins to select 2 players/bots and swap their positions and looking angl
 ## Commands  
 
 `sm_swap` Brings up the swapping menu from which you can select players and execute commands  
+
+<img src="https://theta.goatcounter.com/count?p=/test-img">
