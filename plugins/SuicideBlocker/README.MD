@@ -7,3 +7,5 @@ Prevents players from committing suicide with console commands to abuse the game
 ## Convars
 
 `sm_blocksuicides`  Use values 1/0 to enable suicide blocker on this server. Default Value: `1`
+
+<script data-goatcounter="https://theta.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

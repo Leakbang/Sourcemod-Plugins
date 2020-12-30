@@ -13,3 +13,5 @@ Displays accurate statistics for Grenade damage and Flashbang efficiency.
 ## Note  
 
 This plugin only works for **Counter Strike Global Offensive**
+
+<script data-goatcounter="https://theta.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -18,3 +18,5 @@ This repository hosts plugins I made for sourcemod alongside their source code. 
 ## Bugs/Feature requests
 
 Submit your feedback/feature requests I'll add them when I get the chance  
+
+<script data-goatcounter="https://theta.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
