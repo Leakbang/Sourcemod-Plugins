@@ -13,5 +13,3 @@ Allows admins to prohibit players from using firearms. Only melee weapons and so
 
 This plugin only works for **Counter Strike Global Offensive** and **Insurgency**  
 This plugin is a bit mod specific but I'll release an experimental version that supports all games sometime in the future but if you have a game-specific request shoot me a message and I'll look into it.    
-
-<script data-goatcounter="https://theta.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

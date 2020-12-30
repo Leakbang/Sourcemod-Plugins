@@ -7,5 +7,3 @@ Allows admins to activate a "Maintenance Mode" on servers which will allow admin
 ## Convars  
 
 `sm_enablemaintenancemode` Use values 1/0 to enable or disable maintenance mode on this server. Default value: `0`  
-
-<script data-goatcounter="https://theta.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
